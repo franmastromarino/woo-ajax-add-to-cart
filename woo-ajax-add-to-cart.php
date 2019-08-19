@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Ajax add to cart for WooCommerce
  * Description: Ajax add to cart for WooCommerce products
- * Version:     1.1.2
+ * Version:     1.1.3
  * Author:      QuadLayers
  * Author URI:  https://www.quadlayers.com
  * Copyright:   2019 QuadLayers (https://www.quadlayers.com)
@@ -15,7 +15,7 @@ if (!defined('QLWCAJAX_PLUGIN_NAME')) {
   define('QLWCAJAX_PLUGIN_NAME', 'Ajax add to cart for WooCommerce');
 }
 if (!defined('QLWCAJAX_PLUGIN_VERSION')) {
-  define('QLWCAJAX_PLUGIN_VERSION', '1.1.2');
+  define('QLWCAJAX_PLUGIN_VERSION', '1.1.3');
 }
 if (!defined('QLWCAJAX_PLUGIN_FILE')) {
   define('QLWCAJAX_PLUGIN_FILE', __FILE__);
@@ -64,8 +64,11 @@ if (!class_exists('QLWCAJAX')) {
     }
 
     function add_product_js() {
+
+      wp_register_script('woo-ajax-add-to-cart', plugin_dir_url(__FILE__) . 'assets/ajax-add-to-cart.min.js', array('jquery'), QLWCAJAX_PLUGIN_VERSION, true);
+
       if (function_exists('is_product') && is_product()) {
-        wp_enqueue_script('woo-ajax-add-to-cart', plugin_dir_url(__FILE__) . 'assets/ajax-add-to-cart.min.js', array('jquery'), QLWCAJAX_PLUGIN_VERSION, true);
+        wp_enqueue_script('woo-ajax-add-to-cart');
       }
     }
 
