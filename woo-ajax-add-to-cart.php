@@ -1,11 +1,12 @@
 <?php
 /**
  * Plugin Name: Ajax add to cart for WooCommerce
- * Plugin URI: https://quadmenu.com/add-to-cart-with-woocommerce-and-ajax-step-by-step/
- * Description: Ajax add to cart for WooCommerce
- * Version: 1.1.1
- * Author: QuadLayers
- * Author URI: http://www.quadlayers.com
+ * Description: Ajax add to cart for WooCommerce products
+ * Version:     1.1.2
+ * Author:      QuadLayers
+ * Author URI:  https://www.quadlayers.com
+ * Copyright:   2019 QuadLayers (https://www.quadlayers.com)
+ * Text Domain: woo-ajax-add-to-cart
  */
 if (!defined('ABSPATH')) {
   die('-1');
@@ -14,7 +15,7 @@ if (!defined('QLWCAJAX_PLUGIN_NAME')) {
   define('QLWCAJAX_PLUGIN_NAME', 'Ajax add to cart for WooCommerce');
 }
 if (!defined('QLWCAJAX_PLUGIN_VERSION')) {
-  define('QLWCAJAX_PLUGIN_VERSION', '1.1.0');
+  define('QLWCAJAX_PLUGIN_VERSION', '1.1.2');
 }
 if (!defined('QLWCAJAX_PLUGIN_FILE')) {
   define('QLWCAJAX_PLUGIN_FILE', __FILE__);
@@ -64,7 +65,7 @@ if (!class_exists('QLWCAJAX')) {
 
     function add_product_js() {
       if (function_exists('is_product') && is_product()) {
-        wp_enqueue_script('woocommerce-ajax-add-to-cart', plugin_dir_url(__FILE__) . 'assets/ajax-add-to-cart.min.js', array('jquery'), '1.0.7', true);
+        wp_enqueue_script('woo-ajax-add-to-cart', plugin_dir_url(__FILE__) . 'assets/ajax-add-to-cart.min.js', array('jquery'), QLWCAJAX_PLUGIN_VERSION, true);
       }
     }
 
@@ -78,16 +79,16 @@ if (!class_exists('QLWCAJAX')) {
             </div>
             <div class="notice-content" style="margin-left: 15px;">
               <p>
-                <?php printf(esc_html__('Hello! Do you want to improve your sales?', 'qlwcajax'), QLWCAJAX_PLUGIN_NAME); ?>
+                <?php printf(esc_html__('Hello! Do you want to improve your sales?', 'woo-ajax-add-to-cart'), QLWCAJAX_PLUGIN_NAME); ?>
                 <br/>
-                <?php esc_html_e('We want to invite you to meet our WooCommerce Direct Checkout plugin which allows you to simplifies the checkout process by skipping the shopping cart page and other tips.', 'qlwcajax'); ?>
+                <?php esc_html_e('We want to invite you to meet our WooCommerce Direct Checkout plugin which allows you to simplifies the checkout process by skipping the shopping cart page and other tips.', 'woo-ajax-add-to-cart'); ?>
               </p>
               <a href="<?php echo esc_url(QLWCAJAX_PURCHASE_URL); ?>" class="button-primary" target="_blank">
-                <?php esc_html_e('More Info!', 'qlwcajax'); ?>
+                <?php esc_html_e('More Info!', 'woo-ajax-add-to-cart'); ?>
               </a>
               <?php if (current_user_can('activate_plugins')): ?>
                 <a href="<?php echo wp_nonce_url(self_admin_url('update.php?action=install-plugin&plugin=woocommerce-direct-checkout'), 'install-plugin_woocommerce-direct-checkout'); ?>" class="button-secondary" target="_blank">
-                  <?php esc_html_e('Install', 'qlwcajax'); ?>
+                  <?php esc_html_e('Install', 'woo-ajax-add-to-cart'); ?>
                 </a>
               <?php endif; ?>
             </div>				
@@ -118,7 +119,7 @@ if (!class_exists('QLWCAJAX')) {
 
     function add_action_links($links) {
 
-      $links[] = '<a target="_blank" href="' . QLWCAJAX_PURCHASE_URL . '">' . esc_html__('Premium', 'qlwcajax') . '</a>';
+      $links[] = '<a target="_blank" href="' . QLWCAJAX_PURCHASE_URL . '">' . esc_html__('Premium', 'woo-ajax-add-to-cart') . '</a>';
 
       return $links;
     }

@@ -3,15 +3,15 @@ Contributors: quadlayers
 Tags: woocommerce, woocommerce ajax, woocommerce ajax cart, add to cart
 Requires at least: 4.8
 Tested up to: 5.2.2
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Ajax add to cart for WooCommerce Single products
+Ajax add to cart for WooCommerce products
 
 == Description ==
 
-The default add to cart button of WooCommerce for single products reloads the entire site each time a product is added to the cart. The more steps and time your e-commerce load, the more you reduce the chances of selling.
+The default add to cart button of WooCommerce reloads the entire site each time a product is added to the cart. The more steps and time your e-commerce load, the more you reduce the chances of selling.
 
 [Ajax add to cart for WooCommerce](https://quadmenu.com/add-to-cart-with-woocommerce-and-ajax-step-by-step/) allows users to include single products or variable products in the cart without the need to reload the entire site each time.
 
@@ -25,6 +25,9 @@ https://youtu.be/qeC9bVKFgL8
 4. Increase your sales!
 
 == Changelog ==
+
+= 1.1.2 =
+* woocommerce ajax add to cart language i18n fix
 
 = 1.1.1 =
 * woocommerce product addons fix
