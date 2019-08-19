@@ -2,8 +2,8 @@
 Contributors: quadlayers
 Tags: woocommerce, woocommerce ajax, woocommerce ajax cart, add to cart
 Requires at least: 4.8
-Tested up to: 5.1.0
-Stable tag: 1.0.6
+Tested up to: 5.2.2
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -25,6 +25,9 @@ https://youtu.be/qeC9bVKFgL8
 4. Increase your sales!
 
 == Changelog ==
+
+= 1.1.1 =
+* woocommerce product addons fix
 
 = 1.1.0 =
 * woocommerce ajax add to cart issues

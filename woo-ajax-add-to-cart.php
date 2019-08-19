@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Ajax add to cart for WooCommerce
  * Plugin URI: https://quadmenu.com/add-to-cart-with-woocommerce-and-ajax-step-by-step/
- * Description: Ajax add to cart for WooCommerce single products
- * Version: 1.1.0
+ * Description: Ajax add to cart for WooCommerce
+ * Version: 1.1.1
  * Author: QuadLayers
  * Author URI: http://www.quadlayers.com
  */
@@ -119,7 +119,7 @@ if (!class_exists('QLWCAJAX')) {
     function add_action_links($links) {
 
       $links[] = '<a target="_blank" href="' . QLWCAJAX_PURCHASE_URL . '">' . esc_html__('Premium', 'qlwcajax') . '</a>';
-     
+
       return $links;
     }
 
