@@ -1,5 +1,6 @@
 === Ajax add to cart for WooCommerce ===
 Contributors: quadlayers
+Donate link: https://quadlayers.com/
 Tags: woocommerce, woocommerce ajax, woocommerce ajax cart, add to cart
 Requires at least: 4.8
 Tested up to: 5.2.2
