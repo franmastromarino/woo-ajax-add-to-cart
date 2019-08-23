@@ -29,11 +29,16 @@
 
     var $thisbutton = $(this),
             $form = $thisbutton.closest('form.cart'),
-            quantity = $form.find('input[name=quantity]').val() || 1,
-            product_id = $form.find('input[name=variation_id]').val() || $thisbutton.val(),
+            //quantity = $form.find('input[name=quantity]').val() || 1,
+            //product_id = $form.find('input[name=variation_id]').val() || $thisbutton.val(),
             data = $form.find('input:not([name="product_id"]), select, button, textarea').serializeArrayAll() || 0;
 
-    //if (product_id) {
+    $.each(data, function (i, item) {
+      if (item.name == 'add-to-cart') {
+        item.name = 'product_id';
+        item.value = $form.find('input[name=variation_id]').val() || $thisbutton.val();
+      }
+    });
 
     e.preventDefault();
 
@@ -42,10 +47,7 @@
     $.ajax({
       type: 'POST',
       url: woocommerce_params.wc_ajax_url.toString().replace('%%endpoint%%', 'add_to_cart'),
-      data: {
-        'product_id': product_id,
-        'quantity': quantity
-      },
+      data: data,
       beforeSend: function (response) {
         $thisbutton.removeClass('added').addClass('loading');
       },
@@ -62,8 +64,8 @@
         $(document.body).trigger('added_to_cart', [response.fragments, response.cart_hash, $thisbutton]);
       },
     });
+
     return false;
-    //}
 
   });
 })(jQuery);

@@ -4,7 +4,7 @@ Donate link: https://quadlayers.com/
 Tags: woocommerce, woocommerce ajax, woocommerce ajax cart, add to cart
 Requires at least: 4.8
 Tested up to: 5.2.2
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,13 @@ https://youtu.be/qeC9bVKFgL8
 4. Increase your sales!
 
 == Changelog ==
+
+= 1.1.4 =
+* woocommerce ajax add to cart script included
+* woocommerce ajax add to cart variable product fixed
+
+= 1.1.3 =
+* woocommerce ajax add to cart i18n
 
 = 1.1.2 =
 * woocommerce ajax add to cart register script split from enqueue
