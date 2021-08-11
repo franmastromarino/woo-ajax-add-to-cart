@@ -10,7 +10,7 @@
         return val == null
         //next 2 lines of code look if it is a checkbox and set the value to blank 
         //if it is unchecked
-      } else if (this.type == "checkbox" && this.checked == false) {
+      } else if (this.type == "checkbox" && this.checked === false) {
         return {name: this.name, value: this.checked ? this.value : ''}
         //next lines are kept from default jQuery implementation and 
         //default to all checkboxes = on
@@ -56,7 +56,7 @@
       },
       success: function (response) {
 
-        if (response.error & response.product_url) {
+        if (response.error && response.product_url) {
           window.location = response.product_url;
           return;
         }
