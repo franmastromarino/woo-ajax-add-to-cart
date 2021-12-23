@@ -6,7 +6,7 @@ Requires at least: 4.8
 Tested up to: 5.8
 Stable tag: 1.2.7
 WC requires at least: 3.1.0
-WC tested up to: 5.5
+WC tested up to: 6.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -30,7 +30,7 @@ https://youtu.be/qeC9bVKFgL8
 == Changelog ==
 
 = 1.2.7 =
-* WordPress compatibility
+* WooCommerce compatibility
 
 = 1.2.6 =
 * WordPress compatibility
