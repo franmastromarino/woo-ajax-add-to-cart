@@ -10,7 +10,7 @@
  * Text Domain: woo-ajax-add-to-cart
  * License: GPLv3
  * WC requires at least: 3.1.0
- * WC tested up to: 6.0
+ * WC tested up to: 6.1
  */
 if (!defined('ABSPATH')) {
   die('-1');
