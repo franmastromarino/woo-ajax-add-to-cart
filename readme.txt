@@ -4,9 +4,9 @@ Donate link: https://quadlayers.com/
 Tags: woocommerce, woocommerce ajax, woocommerce ajax cart, add to cart
 Requires at least: 4.8
 Tested up to: 5.9
-Stable tag: 1.2.9
+Stable tag: 1.3.0
 WC requires at least: 3.1.0
-WC tested up to: 6.2
+WC tested up to: 6.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -28,6 +28,9 @@ https://youtu.be/qeC9bVKFgL8
 4. Increase your sales!
 
 == Changelog ==
+
+= 1.3.0 =
+* WooCommerce compatibility
 
 = 1.2.9 =
 * WordPress compatibility
