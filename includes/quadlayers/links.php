@@ -1,9 +1,5 @@
 <?php
 
-namespace Perfect_Woocommerce_Brands\Admin;
-
-defined( 'ABSPATH' ) || die( 'No script kiddies please!' );
-
 class QLWCAJAX_Admin_Links {
 
 	protected static $_instance;

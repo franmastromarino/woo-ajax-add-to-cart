@@ -4,7 +4,7 @@
  * Plugin Name: Ajax add to cart for WooCommerce
  * Plugin URI:  https://quadlayers.com
  * Description: Ajax add to cart for WooCommerce products
- * Version:     1.3.2
+ * Version:     1.3.3
  * Author:      QuadLayers
  * Author URI:  https://quadlayers.com
  * Text Domain: woo-ajax-add-to-cart
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'QLWCAJAX_PLUGIN_NAME', 'Ajax add to cart for WooCommerce' );
-define( 'QLWCAJAX_PLUGIN_VERSION', '1.3.1' );
+define( 'QLWCAJAX_PLUGIN_VERSION', '1.3.3' );
 define( 'QLWCAJAX_PLUGIN_FILE', __FILE__ );
 define( 'QLWCAJAX_PLUGIN_DIR', __DIR__ . DIRECTORY_SEPARATOR );
 define( 'QLWCAJAX_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
@@ -36,7 +36,7 @@ define( 'QLWCAJAX_PREMIUM_SELL_URL', 'https://quadlayers.com/portfolio/woocommer
 define( 'QLWCAJAX_CROSS_INSTALL_SLUG', 'woocommerce-checkout-manager' );
 define( 'QLWCAJAX_CROSS_INSTALL_NAME', 'Checkout Manager' );
 define( 'QLWCAJAX_CROSS_INSTALL_DESCRIPTION', esc_html__( 'Checkout Field Manager( Checkout Manager ) for WooCommerce allows you to add custom fields to the checkout page, related to billing, Shipping or Additional fields sections.', 'woo-ajax-add-to-cart' ) );
-define( 'QLWCAJAX_CROSS_INSTALL_URL', 'https:// quadlayers.com/portfolio/woocommerce-checkout-manager/?utm_source=qlwcajax_admin' );
+define( 'QLWCAJAX_CROSS_INSTALL_URL', 'https://quadlayers.com/portfolio/woocommerce-checkout-manager/?utm_source=qlwcajax_admin' );
 
 
 require_once QLWCAJAX_PLUGIN_DIR . 'includes/quadlayers/widget.php';
