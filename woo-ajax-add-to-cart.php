@@ -1,23 +1,28 @@
 <?php
 
 /**
- * Plugin Name: Ajax add to cart for WooCommerce
- * Plugin URI:  https://quadlayers.com
- * Description: Ajax add to cart for WooCommerce products
- * Version:     1.3.9
- * Author:      QuadLayers
- * Author URI:  https://quadlayers.com
- * Text Domain: woo-ajax-add-to-cart
- * License: GPLv3
- * WC requires at least: 3.1.0
- * WC tested up to: 7.2
+ * Plugin Name:             Ajax add to cart for WooCommerce
+ * Plugin URI:              https://quadlayers.com
+ * Description:             Ajax add to cart for WooCommerce products
+ * Version:                 1.4.0
+ * Text Domain:             woo-ajax-add-to-cart
+ * Author:                  QuadLayers
+ * Author URI:              https://quadlayers.com
+ * License:                 GPLv3
+ * Domain Path:             /languages
+ * Request at least:        4.7.0
+ * Tested up to:            6.1
+ * Requires PHP:            5.6
+ * WC requires at least:    4.0
+ * WC tested up to:         7.3
  */
+
 if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
 define( 'QLWCAJAX_PLUGIN_NAME', 'Ajax add to cart for WooCommerce' );
-define( 'QLWCAJAX_PLUGIN_VERSION', '1.3.9' );
+define( 'QLWCAJAX_PLUGIN_VERSION', '1.4.0' );
 define( 'QLWCAJAX_PLUGIN_FILE', __FILE__ );
 define( 'QLWCAJAX_PLUGIN_DIR', __DIR__ . DIRECTORY_SEPARATOR );
 define( 'QLWCAJAX_PLUGIN_BASENAME', plugin_basename( __FILE__ ) );
