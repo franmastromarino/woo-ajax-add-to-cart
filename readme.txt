@@ -5,7 +5,7 @@ Tags: woocommerce, woocommerce ajax, woocommerce ajax cart, add to cart
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.1
-Stable tag: 2.0.0
+Stable tag: 2.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.7.0
@@ -14,6 +14,7 @@ WC tested up to: 7.4
 Ajax add to cart for WooCommerce products
 
 == Description ==
+[About Us](https://quadlayers.com/) | [Community](https://www.facebook.com/groups/quadlayers/) | [Github](https://github.com/franmastromarino/woo-ajax-add-to-cart)
 
 The default add to cart button of WooCommerce reloads the entire site each time a product is added to the cart. The more steps and time your e-commerce load, the more you reduce the chances of selling.
 
@@ -29,6 +30,9 @@ https://youtu.be/qeC9bVKFgL8
 4. Increase your sales!
 
 == Changelog ==
+
+= 2.0.1 =
+* readme update
 
 = 2.0.0 =
 * Refactor
