@@ -1,0 +1,224 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ajax add to cart for WooCommerce\n"
+"POT-Creation-Date: 2023-02-24 10:02-0300\n"
+"PO-Revision-Date: 2023-02-24 10:01-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woo-ajax-add-to-cart.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#. translators: %s is the script handle.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:389
+#, php-format
+msgid "Script \"%s\" depends on wp-i18n but does not specify \"textdomain\""
+msgstr ""
+
+#. translators: 1: wp_default_scripts. 2: Name of the domain being aliased.
+#: jetpack_vendor/automattic/jetpack-assets/src/class-assets.php:554
+#, php-format
+msgid ""
+"Textdomain aliases should be registered before the %1$s hook. This notice "
+"was triggered by the %2$s domain."
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:71
+msgid ""
+"Hi! We are Quadlayers! We’re a team of international people who have been "
+"working in the WordPress sphere for the last ten years."
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:74
+msgid "More products"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:97
+msgid "Untitled"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:125
+msgid "Read more like this on our blog"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:148
+#: jetpack_vendor/quadlayers/wp-dashboard-widget-news/src/Load.php:154
+msgid ""
+"An error has occurred, which probably means the feed is down. Try again later"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Load.php:296
+#, php-format
+msgid "Unknow notice index %s"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Load.php:300
+#, php-format
+msgid "Notice index %s removed"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:36
+msgid "Activate"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-promote/src/Traits/PluginActions.php:43
+msgid "Install"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:99
+#, php-format
+msgid "Activate % s"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:100
+#, php-format
+msgid "%1$s not working because you need to activate the %2$s plugin . "
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:113
+#, php-format
+msgid "Install % s"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-notice-plugin-required/src/Load.php:114
+#, php-format
+msgid "%1$s not working because you need to install the %2$s plugin . "
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:78
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:93
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Page.php:94
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:47
+msgid "Suggestions"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:157
+msgid "Search Results"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:160
+msgctxt "Plugin Installer"
+msgid "Beta Testing"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:162
+msgctxt "Plugin Installer"
+msgid "Featured"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:163
+msgctxt "Plugin Installer"
+msgid "Popular"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:164
+msgctxt "Plugin Installer"
+msgid "Recommended"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/Table.php:165
+msgctxt "Plugin Installer"
+msgid "Favorites"
+msgstr ""
+
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:50
+msgid ""
+"Thanks for using our product! We recommend these extensions that will add "
+"new features to stand out your business and improve your sales."
+msgstr ""
+
+#. Author of the plugin/theme
+#: jetpack_vendor/quadlayers/wp-plugin-suggestions/src/view/suggestions.php:79
+msgid "QuadLayers"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:23
+msgid ""
+"This plugin allows you to add custom fields to the checkout page, related to "
+"billing, shipping or additional fields sections."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:30
+msgid ""
+"Perfect WooCommerce Brands the perfect tool to improve customer experience "
+"on your site. It allows you to highlight product brands and organize them in "
+"lists, dropdowns, thumbnails, and as a widget."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:42
+#, php-format
+msgid "Hello! Thank you for choosing the %s plugin!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:47
+msgid ""
+"Could you please give it a 5-star rating on WordPress?. Your feedback will "
+"boost our motivation and help us promote and continue to improve this "
+"product."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:50
+msgid "Yes, of course!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:55
+msgid "Report a bug"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:64
+msgid "Hello! We have a special gift!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:69
+#, php-format
+msgid ""
+"Today we want to make you a special gift. Using the coupon code %1$s before "
+"the next 48 hours you can get a 20 percent discount on the premium version "
+"of the %2$s plugin."
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:77
+#: vendor_packages/wp-notice-plugin-promote.php:95
+#: vendor_packages/wp-notice-plugin-promote.php:113
+msgid "More info!"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:87
+#: vendor_packages/wp-notice-plugin-promote.php:105
+#, php-format
+msgid "Hello! We want to invite you to try our %s plugin!"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:8
+msgid "Premium"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:13
+msgid "Support"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ajax add to cart for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://quadlayers.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Ajax add to cart for WooCommerce products"
+msgstr ""
