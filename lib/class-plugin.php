@@ -2,11 +2,15 @@
 
 namespace QuadLayers\QLWCAJAX;
 
-class Plugin {
+final class Plugin {
 
 	protected static $instance;
 
 	private function __construct() {
+		/**
+		 * Load plugin textdomain.
+		 */
+		load_plugin_textdomain( 'woo-ajax-add-to-cart', false, QLWCAJAX_PLUGIN_DIR . '/languages/' );
 		add_action( 'wp_enqueue_scripts', array( $this, 'add_product_js' ), 99 );
 	}
 
@@ -41,7 +45,7 @@ class Plugin {
 	}
 
 	public static function instance() {
-		if ( ! isset( self::$instance ) ) {
+		if ( is_null( self::$instance ) ) {
 			self::$instance = new self();
 		}
 		return self::$instance;
