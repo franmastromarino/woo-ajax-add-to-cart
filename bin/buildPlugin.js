@@ -40,6 +40,9 @@ const PLUGIN_FILES = [
 		required: true,
 	},
 	{
+		source: "./compatibility"
+	},
+	{
 		source: "./build",
 	},
 	{
