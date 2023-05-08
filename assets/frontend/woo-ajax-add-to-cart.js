@@ -14,6 +14,10 @@
         return {name: this.name, value: this.checked ? this.value : ''}
         //next lines are kept from default jQuery implementation and 
         //default to all checkboxes = on
+	  } else if (this.type === 'radio') {
+        if (this.checked) {
+          return {name: this.name, value: this.checked ? this.value : ''};
+        }  	  
       } else {
         return jQuery.isArray(val) ?
                 jQuery.map(val, function (val, i) {
