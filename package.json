@@ -1,6 +1,6 @@
 {
 	"name": "woo-ajax-add-to-cart",
-	"description": "Licenses Manager For Woocommerce",
+	"description": "Ajax add to cart for WooCommerce",
 	"main": "index.js",
 	"scripts": {
 		"tools:delete:lock": "node ./bin/delete.js ./.tools/composer.lock",
