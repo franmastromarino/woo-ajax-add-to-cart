@@ -1,0 +1,9 @@
+{
+	"recommendations": [
+		"valeryanm.vscode-phpsab",
+		"esbenp.prettier-vscode",
+		"dbaeumer.vscode-eslint",
+		"franmastromarino.vs-code-settings-os",
+		"bmewburn.vscode-intelephense-client"
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"name": "quadlayers/woo-ajax-add-to-cart",
-	"description": "Ajax add to cart for WooCommerce",
+	"description": "Licenses Manager For Woocommerce",
 	"type": "project",
 	"authors": [
 		{
@@ -15,8 +15,7 @@
 		},
 		"allow-plugins": {
 			"quadlayers/wp-autoload": true,
-			"automattic/jetpack-composer-plugin": true,
-			"dealerdirect/phpcodesniffer-composer-installer": true
+			"automattic/jetpack-composer-plugin": true
 		}
 	},
 	"require": {
@@ -39,18 +38,14 @@
 			"lib/"
 		]
 	},
+	"require-dev": {
+		"quadlayers/wp-autoload": "*"
+	},
 	"extra": {
 		"quadlayers/wp-autoload": {
 			"QuadLayers\\QLWCAJAX": "lib/"
 		},
 		"wp-plugin-slug": "woo-ajax-add-to-cart"
 	},
-	"require-dev": {
-		"quadlayers/wp-autoload": "*",
-		"woocommerce/woocommerce-sniffs": "^0.1.3",
-		"phpunit/phpunit": "^9.5"
-	},
-	"scripts": {
-		"test:phpunit": "./vendor/bin/phpunit phpunit"
-	}
+	"scripts": {}
 }

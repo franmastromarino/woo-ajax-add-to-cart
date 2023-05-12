@@ -36,8 +36,7 @@ const PLUGIN_FILES = [
 		required: true,
 	},
 	{
-		source: "./jetpack_vendor",
-		required: true,
+		source: "./jetpack_vendor"
 	},
 	{
 		source: "./compatibility"
@@ -59,8 +58,11 @@ const PLUGIN_FILES = [
 
 /**
  * Compresses a folder to the specified zip file.
- * @param {string} folder 
- * @param {string} filePath 
+ *
+ * @param {string} folder
+ * @param {string} filePath
+ * @param          source
+ * @param          target
  */
 const compressFromTo = async (source, target) => {
 	const sourcePath = path.resolve(source);

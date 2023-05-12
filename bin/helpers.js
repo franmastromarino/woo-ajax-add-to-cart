@@ -6,6 +6,7 @@ const pluginFolder = './.plugin/' + pluginName;
 
 /**
  * Copy file from source to target.
+ *
  * @param {string} source
  * @param {string} target
  */
@@ -21,6 +22,7 @@ const copyFileFromTo = (source, target) => {
 
 /**
  * Copy folder recursive source to target.
+ *
  * @param {string} source
  * @param {string} target
  */
@@ -47,6 +49,7 @@ const copyFolderFromTo = (source, target) => {
 
 /**
  * Copy file or folder recursive source to target.
+ *
  * @param {string} source
  * @param {string} target
  */
@@ -61,8 +64,8 @@ const copyFromTo = (source, target) => {
 
 /**
  * Copy files from source to target.
- * 
- * @param {array} files 
+ *
+ * @param {Array} files
  */
 const copyFromToArr = async (files) => {
 	for (const file of files) {
@@ -126,3 +129,4 @@ module.exports.deleteFromPluginFolder = deleteFromPluginFolder;
 module.exports.consoleSuccess = consoleSuccess;
 module.exports.consoleError = consoleError;
 module.exports.consoleInfo = consoleInfo;
+module.exports.copyFileFromTo = copyFileFromTo;
