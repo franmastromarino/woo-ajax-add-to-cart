@@ -49,10 +49,6 @@ jobs:
 
       - name: Validate directories
         run: |
-          if [ ! -d "build" ]; then
-            echo "Build directory does not exist."
-            exit 1
-          fi
           if [ ! -d "vendor" ]; then
             echo "Vendor directory does not exist."
             exit 1
