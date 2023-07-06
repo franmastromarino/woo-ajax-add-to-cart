@@ -44,7 +44,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pnpm install --force
+          pnpm run setup
           pnpm run build
 
       - name: Validate directories
