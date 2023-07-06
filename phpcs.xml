@@ -10,7 +10,6 @@
 	<exclude-pattern>/tests</exclude-pattern>
 	<exclude-pattern>/jetpack_vendor/i18n-map.php</exclude-pattern>
 	<exclude-pattern>/jetpack_vendor/automattic</exclude-pattern>
-	<exclude-pattern>/phpunit</exclude-pattern>
 	<exclude-pattern>/build</exclude-pattern>
 	<exclude-pattern>/artifacts</exclude-pattern>
 	<exclude-pattern>/test-results</exclude-pattern>

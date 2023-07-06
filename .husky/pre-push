@@ -1,11 +1,11 @@
-# #!/usr/bin/env sh
-# . "$(dirname -- "$0")/_/husky.sh"
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
 
-# # Install browsers for PlayWright tests
-# #npx playwright install
-# # Execute tests
-# #npm run test
-# #./vendor/bin/phpunit phpunit
+# Install browsers for PlayWright tests
+#npx playwright install
+# Execute tests
+#npm run test
+#./vendor/bin/phpunit phpunit
 
 # # Check if the push includes a tag
 # while read local_ref local_sha remote_ref remote_sha; do

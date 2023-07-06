@@ -3,7 +3,6 @@
 /assets
 /tests
 /jetpack_vendor
-/phpunit
 /build
 /artifacts
 /test-results
@@ -11,5 +10,4 @@
 /playwright
 /.plugin
 **/test/**
-/bin
 playwright.config.js
