@@ -8,16 +8,16 @@
       var val = jQuery(this).val();
       if (val == null) {
         return val == null
-        //next 2 lines of code look if it is a checkbox and set the value to blank 
+        //next 2 lines of code look if it is a checkbox and set the value to blank
         //if it is unchecked
       } else if (this.type == "checkbox" && this.checked === false) {
         return {name: this.name, value: this.checked ? this.value : ''}
-        //next lines are kept from default jQuery implementation and 
+        //next lines are kept from default jQuery implementation and
         //default to all checkboxes = on
 	  } else if (this.type === 'radio') {
         if (this.checked) {
           return {name: this.name, value: this.checked ? this.value : ''};
-        }  	  
+        }
       } else {
         return jQuery.isArray(val) ?
                 jQuery.map(val, function (val, i) {
@@ -35,7 +35,7 @@
             $form = $thisbutton.closest('form.cart'),
             //quantity = $form.find('input[name=quantity]').val() || 1,
             //product_id = $form.find('input[name=variation_id]').val() || $thisbutton.val(),
-            data = $form.find('input:not([name="product_id"]), select, button, textarea').serializeArrayAll() || 0;
+            data = $form.find('input:not([name="product_id"]):not([disabled]), select, button, textarea').serializeArrayAll() || 0;
 
     $.each(data, function (i, item) {
       if (item.name == 'add-to-cart') {
