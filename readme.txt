@@ -9,7 +9,7 @@ Stable tag: 2.2.7
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.7.0
-WC tested up to: 8.2
+WC tested up to: 8.4
 
 Ajax add to cart for WooCommerce products
 

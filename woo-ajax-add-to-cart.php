@@ -14,7 +14,7 @@
  * Tested up to:            6.4
  * Requires PHP:            5.6
  * WC requires at least:    4.0
- * WC tested up to:         8.2
+ * WC tested up to:         8.4
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -48,6 +48,7 @@ require_once __DIR__ . '/vendor_packages/wp-dashboard-widget-news.php';
 require_once __DIR__ . '/vendor_packages/wp-plugin-table-links.php';
 require_once __DIR__ . '/vendor_packages/wp-notice-plugin-required.php';
 require_once __DIR__ . '/vendor_packages/wp-notice-plugin-promote.php';
+require_once __DIR__ . '/vendor_packages/wp-plugin-install-tab.php';
 /**
  * Load plugin classes
  */
