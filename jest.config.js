@@ -4,6 +4,7 @@
  */
 
 module.exports = {
+	// eslint-disable-next-line prettier/prettier
 	testMatch: [ '**/packages/**/*.test.js' ],
 	// All imported modules in your tests should be mocked automatically
 	// automock: false,

@@ -21,6 +21,12 @@
 		"jsx-a11y/anchor-is-valid": "off",
 		"import/no-unresolved": "off",
 		"@wordpress/i18n-translator-comments": "off",
-		"no-nested-ternary": "off"
+		"no-nested-ternary": "off",
+		"prettier/prettier": [
+			"error",
+			{
+				"endOfLine": "auto"
+			}
+		]
 	}
 }

@@ -59,7 +59,7 @@
 		"only-allow": "1.1.1",
 		"sass-loader": "^13.3.2",
 		"webpack-remove-empty-scripts": "0.8.4",
-		"wp-scaffolding": "^1.2.1"
+		"wp-scaffolding": "^1.2.4"
 	},
 	"scaffolding": {
 		"zip": [

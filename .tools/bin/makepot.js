@@ -22,7 +22,7 @@ const includeFiles = pluginFiles.filter(
 );
 
 // Construct the command
-const command = `php .tools/vendor/wp-cli/wp-cli/php/boot-fs.php i18n make-pot ${ baseDir } ${ outputFile } --include=${ includeFiles.join(
+const command = `php -d memory_limit=512M .tools/vendor/wp-cli/wp-cli/php/boot-fs.php i18n make-pot ${ baseDir } ${ outputFile } --include=${ includeFiles.join(
 	','
 ) }`;
 
