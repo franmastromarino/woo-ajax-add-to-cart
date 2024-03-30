@@ -69,8 +69,8 @@ if ( class_exists( 'QuadLayers\\WP_Notice_Plugin_Promote\\Load' ) ) {
 						'Today we have a special gift for you. Use the coupon code %1$s within the next 48 hours to receive a %2$s discount on the premium version of the %3$s plugin.',
 						'woo-ajax-add-to-cart'
 					),
-					'20%',
 					'ADMINPANEL20%',
+					'20%',
 					QLWCAJAX_PROMOTE_PREMIUM_SELL_NAME
 				),
 				'notice_more_link'   => QLWCAJAX_PROMOTE_PREMIUM_SELL_URL,
