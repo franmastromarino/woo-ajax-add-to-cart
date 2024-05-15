@@ -2,8 +2,6 @@
 
 namespace QuadLayers\QLWCAJAX;
 
-use WC_AJAX;
-
 final class Plugin {
 
 	protected static $instance;

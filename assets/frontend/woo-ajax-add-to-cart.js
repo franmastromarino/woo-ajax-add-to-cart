@@ -53,9 +53,11 @@
       url: woocommerce_params.wc_ajax_url.toString().replace('%%endpoint%%', 'add_to_cart'),
       data: data,
       beforeSend: function (response) {
+        $thisbutton.prop( 'disabled', true );
         $thisbutton.removeClass('added').addClass('loading');
       },
       complete: function (response) {
+        $thisbutton.prop( 'disabled', false );
         $thisbutton.addClass('added').removeClass('loading');
       },
       success: function (response) {
