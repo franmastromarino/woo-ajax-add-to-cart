@@ -41,7 +41,7 @@ final class Plugin {
 
 			$product = wc_get_product( $post->ID );
 
-			$enabled = apply_filters( 'qlwcajax_product_enabled', '__return_true', $product );
+			$enabled = apply_filters( 'qlwcajax_product_enabled', true, $product );
 
 			if ( ( $product->is_type( 'simple' ) || $product->is_type( 'variable' ) ) && $enabled ) {
 				wp_enqueue_script( 'woo-ajax-add-to-cart' );
