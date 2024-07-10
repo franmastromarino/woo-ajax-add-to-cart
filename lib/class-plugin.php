@@ -40,7 +40,6 @@ final class Plugin {
 
 	}
 
-
 	/**
 	 * Load product js
 	 */
