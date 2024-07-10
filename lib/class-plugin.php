@@ -12,6 +12,7 @@ final class Plugin {
 		 */
 		load_plugin_textdomain( 'woo-ajax-add-to-cart', false, QLWCAJAX_PLUGIN_DIR . '/languages/' );
 		add_action( 'wp_enqueue_scripts', array( $this, 'add_product_js' ), 99 );
+		add_action( 'woocommerce_before_add_to_cart_form', array( $this, 'load_product_js' ) );
 		add_filter( 'woocommerce_product_variation_get_attributes', array( $this, 'fix_add_missing_variation_attributes' ), 10, 2 );
 		add_filter( 'woocommerce_cart_item_data_to_validate', array( $this, 'fix_remove_missing_variation_attributes' ), 10, 2 );
 	}
@@ -37,16 +38,23 @@ final class Plugin {
 			true
 		);
 
-		if ( function_exists( 'is_product' ) && is_product() ) {
+	}
 
-			$product = wc_get_product( $post->ID );
+	/**
+	 * Load product js
+	 */
+	public function load_product_js() {
 
-			$enabled = apply_filters( 'qlwcajax_product_enabled', true, $product );
+		global $product;
 
-			if ( ( $product->is_type( 'simple' ) || $product->is_type( 'variable' ) ) && $enabled ) {
-				wp_enqueue_script( 'woo-ajax-add-to-cart' );
-			}
+		$enabled = apply_filters( 'qlwcajax_product_enabled', '__return_true', $product );
+
+		$supported_types = apply_filters( 'qlwcajax_product_supported_types', array( 'simple', 'variable' ), $product );
+
+		if ( ( $product->is_type( $supported_types ) ) && $enabled ) {
+			wp_enqueue_script( 'woo-ajax-add-to-cart' );
 		}
+
 	}
 
 	/**
