@@ -5,7 +5,7 @@ Tags: woocommerce, woocommerce ajax, woocommerce ajax cart, add to cart
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 6.5
-Stable tag: 2.3.7
+Stable tag: 2.3.8
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -30,6 +30,9 @@ https://youtu.be/qeC9bVKFgL8
 4. Increase your sales!
 
 == Changelog ==
+
+= 2.3.8 =
+* Introduce product filter
 
 = 2.3.7 =
 * WooCommerce compatibility
