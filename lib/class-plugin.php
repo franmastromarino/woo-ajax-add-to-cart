@@ -37,7 +37,6 @@ final class Plugin {
 			QLWCAJAX_PLUGIN_VERSION,
 			true
 		);
-
 	}
 
 	/**
@@ -54,7 +53,6 @@ final class Plugin {
 		if ( ( $product->is_type( $supported_types ) ) && $enabled ) {
 			wp_enqueue_script( 'woo-ajax-add-to-cart' );
 		}
-
 	}
 
 	/**
