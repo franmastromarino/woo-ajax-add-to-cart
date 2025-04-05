@@ -3,7 +3,9 @@
 	function serializeForm(form, submitter) {
 		var formData = new FormData(form, submitter);
 		var serializedObject = {};
-	
+
+		formData.append('product_id', $(submitter).val());
+
 		formData.forEach(function(value, key) {
 			if (key.includes('[')) {
 				var keys = key.split(/\[|\]/).filter(function(k) { return k; });
