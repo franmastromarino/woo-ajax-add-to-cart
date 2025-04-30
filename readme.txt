@@ -31,6 +31,9 @@ https://youtu.be/qeC9bVKFgL8
 
 == Changelog ==
 
+= 2.4.8 =
+* Fix admin links
+
 = 2.4.7 =
 * Fix texdomain issue
 
