@@ -4,7 +4,7 @@
  * Plugin Name:             Ajax add to cart for WooCommerce
  * Plugin URI:              https://quadlayers.com
  * Description:             Ajax add to cart for WooCommerce products
- * Version:                 2.4.8
+ * Version:                 2.4.9
  * Text Domain:             woo-ajax-add-to-cart
  * Author:                  QuadLayers
  * Author URI:              https://quadlayers.com
@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'QLWCAJAX_PLUGIN_NAME', 'Ajax add to cart for WooCommerce' );
-define( 'QLWCAJAX_PLUGIN_VERSION', '2.4.8' );
+define( 'QLWCAJAX_PLUGIN_VERSION', '2.4.9' );
 define( 'QLWCAJAX_PLUGIN_FILE', __FILE__ );
 define( 'QLWCAJAX_PLUGIN_DIR', __DIR__ . DIRECTORY_SEPARATOR );
 define( 'QLWCAJAX_DOMAIN', 'qlwcajax' );
@@ -50,6 +50,7 @@ require_once __DIR__ . '/vendor_packages/wp-plugin-table-links.php';
 require_once __DIR__ . '/vendor_packages/wp-notice-plugin-required.php';
 require_once __DIR__ . '/vendor_packages/wp-notice-plugin-promote.php';
 require_once __DIR__ . '/vendor_packages/wp-plugin-install-tab.php';
+require_once __DIR__ . '/vendor_packages/wp-plugin-feedback.php';
 /**
  * Load plugin classes
  */
