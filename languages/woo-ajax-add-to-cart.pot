@@ -1,75 +1,85 @@
-# Copyright (C) 2024 QuadLayers
+# Copyright (C) 2025 QuadLayers
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Ajax add to cart for WooCommerce 2.3.8\n"
+"Project-Id-Version: Ajax add to cart for WooCommerce 2.5.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-ajax-add-to-cart\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-07-12T10:04:52+00:00\n"
+"POT-Creation-Date: 2025-07-28T19:38:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.9.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woo-ajax-add-to-cart\n"
 
 #. Plugin Name of the plugin
+#: woo-ajax-add-to-cart.php
 msgid "Ajax add to cart for WooCommerce"
 msgstr ""
 
 #. Plugin URI of the plugin
 #. Author URI of the plugin
+#: woo-ajax-add-to-cart.php
 msgid "https://quadlayers.com"
 msgstr ""
 
 #. Description of the plugin
+#: woo-ajax-add-to-cart.php
 msgid "Ajax add to cart for WooCommerce products"
 msgstr ""
 
 #. Author of the plugin
+#: woo-ajax-add-to-cart.php
 msgid "QuadLayers"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:23
+#: vendor_packages/wp-notice-plugin-promote.php:24
 msgid "This plugin allows you to add custom fields to the checkout page, related to billing, shipping or additional fields sections."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:30
+#: vendor_packages/wp-notice-plugin-promote.php:32
 msgid "Perfect WooCommerce Brands the perfect tool to improve customer experience on your site. It allows you to highlight product brands and organize them in lists, dropdowns, thumbnails, and as a widget."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:41
-msgid "Hello! Thank you for choosing the %s plugin!"
+#: vendor_packages/wp-notice-plugin-promote.php:44
+msgid "Hello! %2$s We've spent countless hours developing this free plugin for you and would really appreciate it if you could drop us a quick rating. Your feedback is extremely valuable to us. %3$s It helps us to get better. Thanks for using %1$s."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:47
-msgid "Could you please give it a 5-star rating on WordPress? Your feedback boosts our motivation, helps us promote, and continues to improve this product. Your support matters!"
-msgstr ""
-
-#: vendor_packages/wp-notice-plugin-promote.php:49
-msgid "Yes, of course!"
-msgstr ""
-
-#: vendor_packages/wp-notice-plugin-promote.php:54
+#: vendor_packages/wp-notice-plugin-promote.php:51
 msgid "Report a bug"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:63
+#: vendor_packages/wp-notice-plugin-promote.php:59
+msgid "Purchase Now"
+msgstr ""
+
+#: vendor_packages/wp-notice-plugin-promote.php:65
 msgid "Hello! We have a special gift!"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:68
+#: vendor_packages/wp-notice-plugin-promote.php:70
 msgid "Today we have a special gift for you. Use the coupon code %1$s within the next 48 hours to receive a %2$s discount on the premium version of the %3$s plugin."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:77
-#: vendor_packages/wp-notice-plugin-promote.php:95
-#: vendor_packages/wp-notice-plugin-promote.php:113
-msgid "More info!"
+#: vendor_packages/wp-notice-plugin-promote.php:85
+#: vendor_packages/wp-notice-plugin-promote.php:99
+msgid "Hello! We want to invite you to try our %s plugin!"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:87
-#: vendor_packages/wp-notice-plugin-promote.php:105
-msgid "Hello! We want to invite you to try our %s plugin!"
+#: vendor_packages/wp-plugin-table-links.php:10
+msgid "Settings"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:15
+msgid "Premium"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:22
+msgid "Support"
+msgstr ""
+
+#: vendor_packages/wp-plugin-table-links.php:27
+msgid "Documentation"
 msgstr ""
