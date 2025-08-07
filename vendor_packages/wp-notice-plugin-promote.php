@@ -15,14 +15,15 @@ if ( class_exists( 'QuadLayers\\WP_Notice_Plugin_Promote\\Load' ) ) {
 		 */
 		define( 'QLWCAJAX_PROMOTE_PREMIUM_SELL_SLUG', 'woocommerce-direct-checkout' );
 		define( 'QLWCAJAX_PROMOTE_PREMIUM_SELL_NAME', 'WooCommerce Direct Checkout PRO' );
-		define( 'QLWCAJAX_PROMOTE_PREMIUM_SELL_URL', QLWCAJAX_PREMIUM_SELL_URL );
+		define( 'QLWCAJAX_PROMOTE_PREMIUM_INSTALL_URL', 'https://quadlayers.com/products/woocommerce-direct-checkout/?utm_source=qlwcajax_plugin&utm_medium=dashboard_notice&utm_campaign=premium_upgrade&utm_content=premium_install_button' );
+		define( 'QLWCAJAX_PROMOTE_PREMIUM_SELL_URL', 'https://quadlayers.com/products/woocommerce-direct-checkout/?utm_source=qlwcajax_plugin&utm_medium=dashboard_notice&utm_campaign=premium_upgrade&utm_content=premium_link' );
 		/**
 		 * Notice cross sell 1
 		 */
 		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_1_SLUG', 'woocommerce-checkout-manager' );
 		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_1_NAME', 'WooCommerce Checkout Manager' );
 		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_1_DESCRIPTION', esc_html__( 'This plugin allows you to add custom fields to the checkout page, related to billing, shipping or additional fields sections.', 'woo-ajax-add-to-cart' ) );
-		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_1_URL', 'https://quadlayers.com/products/woocommerce-checkout-manager/?utm_source=qlwcajax_admin' );
+		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_1_URL', 'https://quadlayers.com/products/woocommerce-checkout-manager/?utm_source=qlwcajax_plugin&utm_medium=dashboard_notice&utm_campaign=cross_sell&utm_content=checkout_manager_link' );
 		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_1_LOGO_SRC', plugins_url( '/assets/backend/img/woocommerce-checkout-manager.jpg', QLWCAJAX_PLUGIN_FILE ) );
 		/**
 		 * Notice cross sell 2
@@ -30,7 +31,7 @@ if ( class_exists( 'QuadLayers\\WP_Notice_Plugin_Promote\\Load' ) ) {
 		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_2_SLUG', 'perfect-woocommerce-brands' );
 		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_2_NAME', 'Perfect WooCommerce Brands' );
 		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_2_DESCRIPTION', esc_html__( 'Perfect WooCommerce Brands the perfect tool to improve customer experience on your site. It allows you to highlight product brands and organize them in lists, dropdowns, thumbnails, and as a widget.', 'woo-ajax-add-to-cart' ) );
-		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_2_URL', 'https://quadlayers.com/products/perfect-woocommerce-brands/?utm_source=qlwcajax_admin' );
+		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_2_URL', 'https://quadlayers.com/products/perfect-woocommerce-brands/?utm_source=qlwcajax_plugin&utm_medium=dashboard_notice&utm_campaign=cross_sell&utm_content=perfect_brands_link' );
 		define( 'QLWCAJAX_PROMOTE_CROSS_INSTALL_2_LOGO_SRC', plugins_url( '/assets/backend/img/woocommerce-checkout-manager.jpg', QLWCAJAX_PLUGIN_FILE ) );
 
 		new \QuadLayers\WP_Notice_Plugin_Promote\Load(
@@ -47,7 +48,7 @@ if ( class_exists( 'QuadLayers\\WP_Notice_Plugin_Promote\\Load' ) ) {
 									'<br>'
 					),
 					'notice_link'        => QLWCAJAX_PROMOTE_REVIEW_URL,
-					'notice_more_link'   => QLWCAJAX_SUPPORT_URL,
+					'notice_more_link'   => 'https://quadlayers.com/account/support/?utm_source=qlwcajax_plugin&utm_medium=dashboard_notice&utm_campaign=support&utm_content=report_bug_button',
 					'notice_more_label'  => esc_html__(
 						'Report a bug',
 						'woo-ajax-add-to-cart'
@@ -55,7 +56,7 @@ if ( class_exists( 'QuadLayers\\WP_Notice_Plugin_Promote\\Load' ) ) {
 				),
 				array(
 					'plugin_slug'        => QLWCAJAX_PROMOTE_PREMIUM_SELL_SLUG,
-					'plugin_install_link'   => QLWCAJAX_PROMOTE_PREMIUM_SELL_URL,
+					'plugin_install_link'   => QLWCAJAX_PROMOTE_PREMIUM_INSTALL_URL,
 					'plugin_install_label'  => esc_html__(
 						'Purchase Now',
 						'woo-ajax-add-to-cart'

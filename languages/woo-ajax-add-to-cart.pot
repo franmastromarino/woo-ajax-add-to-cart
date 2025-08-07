@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Ajax add to cart for WooCommerce 2.5.2\n"
+"Project-Id-Version: Ajax add to cart for WooCommerce 2.5.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-ajax-add-to-cart\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-07-28T19:38:55+00:00\n"
+"POT-Creation-Date: 2025-08-07T09:48:11+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woo-ajax-add-to-cart\n"
@@ -35,36 +35,36 @@ msgstr ""
 msgid "QuadLayers"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:24
+#: vendor_packages/wp-notice-plugin-promote.php:25
 msgid "This plugin allows you to add custom fields to the checkout page, related to billing, shipping or additional fields sections."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:32
+#: vendor_packages/wp-notice-plugin-promote.php:33
 msgid "Perfect WooCommerce Brands the perfect tool to improve customer experience on your site. It allows you to highlight product brands and organize them in lists, dropdowns, thumbnails, and as a widget."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:44
+#: vendor_packages/wp-notice-plugin-promote.php:45
 msgid "Hello! %2$s We've spent countless hours developing this free plugin for you and would really appreciate it if you could drop us a quick rating. Your feedback is extremely valuable to us. %3$s It helps us to get better. Thanks for using %1$s."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:51
+#: vendor_packages/wp-notice-plugin-promote.php:52
 msgid "Report a bug"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:59
+#: vendor_packages/wp-notice-plugin-promote.php:60
 msgid "Purchase Now"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:65
+#: vendor_packages/wp-notice-plugin-promote.php:66
 msgid "Hello! We have a special gift!"
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:70
+#: vendor_packages/wp-notice-plugin-promote.php:71
 msgid "Today we have a special gift for you. Use the coupon code %1$s within the next 48 hours to receive a %2$s discount on the premium version of the %3$s plugin."
 msgstr ""
 
-#: vendor_packages/wp-notice-plugin-promote.php:85
-#: vendor_packages/wp-notice-plugin-promote.php:99
+#: vendor_packages/wp-notice-plugin-promote.php:86
+#: vendor_packages/wp-notice-plugin-promote.php:100
 msgid "Hello! We want to invite you to try our %s plugin!"
 msgstr ""
 

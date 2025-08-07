@@ -4,7 +4,7 @@
  * Plugin Name:             Ajax add to cart for WooCommerce
  * Plugin URI:              https://quadlayers.com
  * Description:             Ajax add to cart for WooCommerce products
- * Version:                 2.5.2
+ * Version:                 2.5.3
  * Text Domain:             woo-ajax-add-to-cart
  * Author:                  QuadLayers
  * Author URI:              https://quadlayers.com
@@ -22,20 +22,14 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'QLWCAJAX_PLUGIN_NAME', 'Ajax add to cart for WooCommerce' );
-define( 'QLWCAJAX_PLUGIN_VERSION', '2.5.2' );
+define( 'QLWCAJAX_PLUGIN_VERSION', '2.5.3' );
 define( 'QLWCAJAX_PLUGIN_FILE', __FILE__ );
 define( 'QLWCAJAX_PLUGIN_DIR', __DIR__ . DIRECTORY_SEPARATOR );
 define( 'QLWCAJAX_DOMAIN', 'qlwcajax' );
 define( 'QLWCAJAX_PREFIX', QLWCAJAX_DOMAIN );
 define( 'QLWCAJAX_WORDPRESS_URL', 'https://wordpress.org/plugins/woo-ajax-add-to-cart/' );
 define( 'QLWCAJAX_REVIEW_URL', 'https://wordpress.org/support/plugin/woo-ajax-add-to-cart/reviews/?filter=5#new-post' );
-define( 'QLWCAJAX_DEMO_URL', 'https://quadlayers.com/products/woocommerce-direct-checkout/?utm_source=qlwcajax_admin' );
-define( 'QLWCAJAX_PURCHASE_URL', QLWCAJAX_DEMO_URL );
-define( 'QLWCAJAX_SUPPORT_URL', 'https://quadlayers.com/account/support/?utm_source=qlwcajax_admin' );
 define( 'QLWCAJAX_GROUP_URL', 'https://www.facebook.com/groups/quadlayers' );
-define( 'QLWCAJAX_DEVELOPER', false );
-define( 'QLWCAJAX_PREMIUM_SELL_URL', 'https://quadlayers.com/products/woocommerce-direct-checkout/?utm_source=qlwcajax_admin' );
-define( 'QLWCAJAX_DOCUMENTATION_URL', 'https://quadlayers.com/documentation/woocommerce-direct-checkout/?utm_source=qlwcajax_admin' );
 
 /**
  * Load composer autoload
