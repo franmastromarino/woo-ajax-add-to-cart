@@ -10,7 +10,7 @@ final class Plugin {
 		/**
 		 * Load plugin textdomain.
 		 */
-		add_action( 'init', array( $this, 'load_textdomain' ) );
+		add_action( 'init', array( $this, 'load_textdomain' ), 1 );
 		add_action( 'wp_enqueue_scripts', array( $this, 'add_product_js' ), 99 );
 		add_action( 'woocommerce_before_add_to_cart_form', array( $this, 'load_product_js' ) );
 		add_filter( 'woocommerce_product_variation_get_attributes', array( $this, 'fix_add_missing_variation_attributes' ), 10, 2 );
@@ -18,7 +18,7 @@ final class Plugin {
 	}
 
 	public function load_textdomain() {
-		load_plugin_textdomain( 'woo-ajax-add-to-cart', false, QLWCAJAX_PLUGIN_DIR . '/languages/' );
+		load_plugin_textdomain( 'woo-ajax-add-to-cart', false, dirname( QLWCAJAX_PLUGIN_BASENAME ) . '/languages' );
 	}
 
 	/**
