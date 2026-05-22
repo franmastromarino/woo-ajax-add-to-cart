@@ -4,8 +4,8 @@ Donate link: https://quadlayers.com/
 Tags: woocommerce, woocommerce ajax, woocommerce ajax cart, add to cart
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.9
-Stable tag: 2.6.3
+Tested up to: 7.0
+Stable tag: 2.6.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 WC requires at least: 4.0
@@ -30,6 +30,9 @@ https://youtu.be/qeC9bVKFgL8
 4. Increase your sales!
 
 == Changelog ==
+
+= 2.6.4 =
+* WordPress 7.0 compatibility
 
 = 2.6.3 =
 * fix: WooCommerce compatibility
